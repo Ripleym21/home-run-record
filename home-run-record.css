@@ -1,27 +1,32 @@
-  h1  {
+ h1  {
        text-align: center;
        font-size: 12pt;
-       color: #000099;
+       color: orange;
        margin-bottom: 5px;
        text-decoration: underline;
     }
-    
+body {
+  background-color: teal;
+}
     table {
        margin: 5px;
-       width: 290px;
+       width: 200px;
       border: 5px solid black;
+      margin-left:auto; 
+      margin-right:auto;
     }
     
     th {
        padding: 3px;
-    }
+      }
     
     td {
        padding-left: 8px;
        padding-right: 8px;
        border: 1px solid #990000;
-       background-color: #ffffcc;
-    }
+       background-color: orange;
+       text-align: center;    
+        }
     
     #trHeader {
        text-decoration: underline;
@@ -31,3 +36,28 @@
     .centerCell {
        text-align: center;
     }
+p {
+  border: 5px solid black;
+  margin-left:10%;
+  margin-right:10%;
+  background-color:orange    
+}
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ol {
+  margin-right:auto;
+  margin-left:auto;
+  background-color:orange;
+  border: 5px solid black;
+}
+h2 {
+  
+       font-size: 12pt;
+       color: orange;
+       margin-bottom: 5px;
+       text-decoration: underline;
+}
